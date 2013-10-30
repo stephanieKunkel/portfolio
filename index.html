@@ -166,7 +166,7 @@
         <div id="footer">
         	<div id="intro">
             
-Hello, I’m Stephanie Kunkel, a web and print designer currently living in Madison, <br />Wisconsin. Thanks for taking a look at my portfolio. Let’s work together.</div>
+cats cats cats cats Hello, I’m Stephanie Kunkel, a web and print designer currently living in Madison, <br />Wisconsin. Thanks for taking a look at my portfolio. Let’s work together.</div>
         <img src="images/logoblue.png" width="77" height="63" class="logoblue" /></div>
         <!--end div footer -->
         <div id="shadow"> </div>
@@ -187,6 +187,18 @@ function() { this.src = this.src.replace("_on", "_off");
 });
 });
 </script> 
+
+ <script type="text/javascript">
+$(document).ready(function() {
+  $(".thumbnail").hover(function() {
+      $(this).fadeTo( 200 , 0.5);
+  },
+  function() {
+      $(this).fadeTo(200 , 1);   
+  });
+});
+</script> 
+
 
 
 </body>
