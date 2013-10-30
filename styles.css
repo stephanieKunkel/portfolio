@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+body, html {
+	background-image: url(images/background.jpg);
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: 414042;
+	font-size: 14px;
+	margin: 0;
+	padding:0;
+}
+#main {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background-image: url(images/mainbg.png);
+	background-repeat: repeat-y;
+	width: 1125px;
+	margin: 0 auto 0 auto;
+	color: #414042;
+	padding: 0 0px 30px 0px;	
+}
+#header {
+	margin-right: 91px;
+	margin-left: 91px;
+	padding-top: 50px;
+	height: 80px;
+}
+
+
+.work{
+	width 220px;
+	height: 220px;
+	margin: 20px 10px 0 10px;
+	background-color: #FFF;
+	float: left;
+	text-align: center;
+}
+.work p {
+	margin: 0;
+	padding: 0;
+	font-style:italic;
+	}
+#work_samples{
+	margin-left: 75px;
+	margin-top: 15px;
+}
+.thumbnail {
+	border: 1px solid #CCC;
+	margin: 10px 20px 20px 20px;
+}
+.logo {
+	padding-right: 15px;
+	float: left;
+}
+h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+	font-weight: normal;
+	color: #414042;
+	margin: 0px;
+	padding-top: 30px;
+}
+h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #414042;
+	margin: 0px;
+	
+}
+h2 a {
+	color: #414042;
+	text-decoration:none;
+}
+h3{
+	padding:4px;
+	margin:0px;
+	color: #414042;
+	font-weight: normal;
+	font-size: 14px;
+}
+
+#footer{
+	background-color: #CEDEDC;	
+	height: 97px;
+}
+.portrait {
+	float: left;
+	margin-left: 40px;
+	margin-top: 30px;
+	margin-right: 60px;
+}
+
+#resume {
+    border-style: none;
+    left: 757px;
+    position: relative;
+    top: -42px;
+    width: 200px;
+	}
+
+
+
+.logoblue {
+    left: 966px;
+    position: relative;
+    top: -27px;
+}
+#main #footer a {
+	
+	color: #414042;
+	text-decoration: none;
+	border-style: none;
+}
+#main #footer a:hover {
+	
+	color: #414042;
+	text-decoration:underline;
+}
+
+.italic {
+	font-style: italic;
+	font-size: 18px;
+}
+
+
+#shadow{
+	width: 1150px;
+	float: left;
+	height:15px;
+	background-image:url(images/footershadow2.png);
+	margin-left: -14px;
+	background-repeat:no-repeat;
+}
+#intro{
+    left: 100px;
+    position: relative;
+    top: 25px;
+    width: 693px;
+}
+#item_content{
+    background-color: #FFFFFF;
+    left: 60px;
+    padding: 30px 30px 60px 30px;
+    position: relative;
+    top: 30px;
+    width: 945px;
+	
+}
+h4{
+	font-weight: normal;
+	font-size: 18px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+#info{
+	width: 290px;
+	padding-right: 50px;
+	float: left;
+}
+#images{
+	width: 600px;
+	float: left;
+}
+
+#images img{
+	margin-bottom: 15px;	
+}
+#menu{
+    float: right;
+    width: 50px;
+}
+#bottom {
+    left: -2px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 0;
+    width: 1125px;
+}
+.stroke{
+	border: 1px solid #666;	
+}
+.video{
+	padding-bottom: 15px;	
+}
