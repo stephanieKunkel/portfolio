@@ -3,19 +3,17 @@
 body, html {
 	background-image: url(images/background.jpg);
 	font-family: Georgia, "Times New Roman", Times, serif;
-	color: 414042;
 	font-size: 14px;
 	margin: 0;
 	padding:0;
 }
 #main {
-	font-family: Georgia, "Times New Roman", Times, serif;
 	background-image: url(images/mainbg.png);
 	background-repeat: repeat-y;
 	width: 1125px;
 	margin: 0 auto 0 auto;
 	color: #414042;
-	padding-bottom: 60px;
+	padding-bottom: 80px;
 }
 #header {
 	margin-right: 91px;
@@ -33,7 +31,7 @@ body, html {
 	float: left;
 	text-align: center;
 }
-.work p {
+.work_type {
 	margin: 0;
 	padding: 0;
 	font-style:italic;
@@ -46,12 +44,15 @@ body, html {
 	border: 1px solid #CCC;
 	margin: 10px 20px 20px 20px;
 }
+.thumbnail:hover{
+	opacity: 0.5;
+	filter:alpha(opacity=50);
+}
 .logo {
 	padding-right: 15px;
 	float: left;
 }
 h1 {
-	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 24px;
 	font-weight: normal;
 	color: #414042;
@@ -59,7 +60,6 @@ h1 {
 	padding-top: 30px;
 }
 h2 {
-	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 16px;
 	font-weight: normal;
 	color: #414042;
@@ -156,7 +156,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', end
 
 .italic {
 	font-style: italic;
-	font-size: 18px;
 }
 
 
@@ -177,7 +176,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', end
 #item_content{
     background-color: #FFFFFF;
     left: 60px;
-    padding: 30px 30px 60px 30px;
+    padding: 30px 30px 200px 30px;
     position: relative;
     top: 30px;
     width: 945px;
@@ -193,6 +192,7 @@ h4{
 	width: 290px;
 	padding-right: 50px;
 	float: left;
+	line-height: 1.5;
 }
 #images{
 	width: 600px;
@@ -222,4 +222,8 @@ h4{
 }
 .info_buttons{
 	margin-bottom: 50px;
+}
+.rollover:hover{
+	opacity: 0.6;
+	filter:alpha(opacity=60);
 }
